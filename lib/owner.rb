@@ -74,6 +74,7 @@ class Owner
     combined_pets.map do |pets_instances|
       pets_instances.mood = "nervous"
       pets_instances.owner = nil 
+      binding.pry
     end 
   end 
   
